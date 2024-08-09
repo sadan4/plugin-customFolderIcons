@@ -7,7 +7,7 @@
 import settings, { folderIcon, folderIconsData } from "./settings";
 
 export async function setFolderData(props: folderProp, newData: folderIcon) {
-    if(!settings.store.folderIcons){
+    if (!settings.store.folderIcons){
         settings.store.folderIcons = {};
     }
     const folderSettings = (settings.store.folderIcons as folderIconsData);

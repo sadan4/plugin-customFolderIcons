@@ -93,7 +93,7 @@ export function makeContextItem(a: folderProp) {
             key="custom-folder-icons"
             label="Change Icon"
             action={() => {
-                openModalLazy(async () => {
+                openModalLazy(async() => {
                     return props => (
                         <ModalRoot {...props}>
                             <ModalHeader >
